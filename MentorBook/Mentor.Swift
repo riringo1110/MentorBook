@@ -12,11 +12,11 @@ class Mentor {
     var course: String!
     var imageName: String!
     
-init(name: String, imageName: String, course: String) {
-    self.name = name
-    self.imageName = imageName
-    self.course = course
-}
+    init(name: String, imageName: String, course: String) {
+        self.name = name
+        self.imageName = imageName
+        self.course = course
+    }
     
     func getImage() -> UIImage{
         return UIImage(named: imageName)!
